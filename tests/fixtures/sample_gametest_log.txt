@@ -1,0 +1,6 @@
+[Server thread/INFO]: Starting GameTest server
+[Server thread/INFO]: Running test: mymod:test_disenchantment_table
+[Server thread/INFO]: Test mymod:test_disenchantment_table passed
+[Server thread/INFO]: Running test: mymod:test_crafting
+[Server thread/ERROR]: Test mymod:test_crafting failed: Expected block at (1, 1, 1) but found air
+[Server thread/INFO]: GameTest completed. 1 passed, 1 failed.

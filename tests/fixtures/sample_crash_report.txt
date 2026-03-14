@@ -1,0 +1,5 @@
+---- Minecraft Crash Report ----
+Description: Exception in server tick loop
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.level.block.entity.BlockEntity.load()" because "be" is null
+at com.example.DisenchantmentTableBlock.onPlace(DisenchantmentTableBlock.java:67)
+at net.minecraft.world.level.chunk.LevelChunk.setBlockState(LevelChunk.java:312)

@@ -1,0 +1,3 @@
+src/main/java/com/example/DisenchantmentTableBlock.java:42: error: cannot find symbol: method getEnchantments()
+        var enchants = sword.getEnchantments();
+                           ^
