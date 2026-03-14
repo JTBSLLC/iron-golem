@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+}
+
+group = 'io.irongolem.generated'
+version = '0.1.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'io.irongolem:irongolem-lib-fabric:0.1.0'
+}

@@ -1,0 +1,16 @@
+package {{PACKAGE_NAME}};
+
+import io.irongolem.IronGolem;
+import net.minecraft.gametest.framework.GameTest;
+import net.minecraft.gametest.framework.GameTestHelper;
+
+public class ExampleGameTest {
+
+    @GameTest(template = "irongolem:empty_5x5")
+    public void testExampleBlockPlacement(GameTestHelper helper) {
+        var t = IronGolem.wrap(helper);
+        t.placeBlock(2, 1, 2, "{{MOD_ID}}:example_block");
+        t.tickFor(1);
+        t.succeed();
+    }
+}

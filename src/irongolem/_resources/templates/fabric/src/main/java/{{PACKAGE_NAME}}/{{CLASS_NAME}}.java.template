@@ -1,0 +1,5 @@
+package {{PACKAGE_NAME}};
+
+public class {{CLASS_NAME}} {
+    public static final String MOD_ID = "{{MOD_ID}}";
+}

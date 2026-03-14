@@ -1,0 +1,3 @@
+minecraft_version={{MC_VERSION}}
+org.gradle.daemon=true
+org.gradle.daemon.idletimeout=3600000
