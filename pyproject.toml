@@ -33,7 +33,7 @@ dev = ["pytest>=8.0"]
 irongolem = "irongolem.__main__:main"
 
 [project.urls]
-Repository = "https://github.com/jtbsllc/irongolem"
+Repository = "https://github.com/JTBSLLC/iron-golem"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/irongolem"]
